@@ -1,7 +1,7 @@
 #Your rake task goes here
 
-require './messaging.rb'
-require './scraping.rb'
+require './lib/messaging.rb'
+require './lib/scraping.rb'
 require 'open-uri'
 
 task :messaging do
