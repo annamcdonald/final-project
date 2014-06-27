@@ -4,7 +4,7 @@ require './messaging.rb'
 require './scraping.rb'
 require 'open-uri'
 
-task :messaging
+task :messaging do
 	scraper = Scrape.new
 
 	message=Messaging.new
