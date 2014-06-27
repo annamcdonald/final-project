@@ -6,8 +6,8 @@ require 'open-uri'
 require 'nokogiri'
 
 task :messaging do
-	scraper = Scraper.new
+	scraper = Scraper.new('http://www.fifa.com/worldcup/matches/index.html')
 
 	message=Messaging.new
-	message.send_text(+13477580450)
+	message.send_text
 end
