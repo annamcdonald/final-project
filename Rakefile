@@ -3,6 +3,7 @@
 require './lib/messaging.rb'
 require './lib/scraping.rb'
 require 'open-uri'
+require 'nokogiri'
 
 task :messaging do
 	scraper = Scrape.new

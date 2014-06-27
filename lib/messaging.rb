@@ -1,6 +1,8 @@
 #Your code to send a message goes herequire 'rubygems' # not necessary with ruby 1.9 but included for completeness
 require 'twilio-ruby'
+require 'nokogiri'
 require_relative './scraping.rb'
+
 
 class Messaging
 
