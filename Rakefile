@@ -6,7 +6,7 @@ require 'open-uri'
 require 'nokogiri'
 
 task :messaging do
-	scraper = Scrape.new
+	scraper = Scraper.new
 
 	message=Messaging.new
 	message.send_text(+13477580450)
